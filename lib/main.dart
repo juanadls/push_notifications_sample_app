@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Push Notifications Sample App',
-      initialRoute: "/",
+      initialRoute: "home",
       routes: {
         'home': (_) => const HomeScreen(),
         'message': (_) => const MessageScreen(),
